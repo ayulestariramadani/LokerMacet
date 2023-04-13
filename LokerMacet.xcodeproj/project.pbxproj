@@ -14,6 +14,10 @@
 		5AD0E8F929D6C09C009A0685 /* LokerMacetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD0E8F829D6C09C009A0685 /* LokerMacetTests.swift */; };
 		5AD0E90329D6C09C009A0685 /* LokerMacetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD0E90229D6C09C009A0685 /* LokerMacetUITests.swift */; };
 		5AD0E90529D6C09C009A0685 /* LokerMacetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD0E90429D6C09C009A0685 /* LokerMacetUITestsLaunchTests.swift */; };
+		5AD0E91929D7724B009A0685 /* PartyLET-plain.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AD0E91829D7724B009A0685 /* PartyLET-plain.ttf */; };
+		5AD0E92029DACFF2009A0685 /* GuideOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD0E91F29DACFF2009A0685 /* GuideOne.swift */; };
+		5AD0E92229DAD098009A0685 /* GuideTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD0E92129DAD098009A0685 /* GuideTwo.swift */; };
+		5AD0E92429DAD0AB009A0685 /* GuideThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD0E92329DAD0AB009A0685 /* GuideThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,11 @@
 		5AD0E8FE29D6C09C009A0685 /* LokerMacetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokerMacetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD0E90229D6C09C009A0685 /* LokerMacetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokerMacetUITests.swift; sourceTree = "<group>"; };
 		5AD0E90429D6C09C009A0685 /* LokerMacetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokerMacetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5AD0E91729D76E0D009A0685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5AD0E91829D7724B009A0685 /* PartyLET-plain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PartyLET-plain.ttf"; sourceTree = "<group>"; };
+		5AD0E91F29DACFF2009A0685 /* GuideOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideOne.swift; sourceTree = "<group>"; };
+		5AD0E92129DAD098009A0685 /* GuideTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideTwo.swift; sourceTree = "<group>"; };
+		5AD0E92329DAD0AB009A0685 /* GuideThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +103,14 @@
 		5AD0E8E629D6C09B009A0685 /* LokerMacet */ = {
 			isa = PBXGroup;
 			children = (
+				5AD0E91729D76E0D009A0685 /* Info.plist */,
 				5AD0E8E729D6C09B009A0685 /* LokerMacetApp.swift */,
 				5AD0E8E929D6C09B009A0685 /* ContentView.swift */,
+				5AD0E91F29DACFF2009A0685 /* GuideOne.swift */,
+				5AD0E92129DAD098009A0685 /* GuideTwo.swift */,
+				5AD0E92329DAD0AB009A0685 /* GuideThree.swift */,
 				5AD0E8EB29D6C09C009A0685 /* Assets.xcassets */,
+				5AD0E91829D7724B009A0685 /* PartyLET-plain.ttf */,
 				5AD0E8ED29D6C09C009A0685 /* Preview Content */,
 			);
 			path = LokerMacet;
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD0E91929D7724B009A0685 /* PartyLET-plain.ttf in Resources */,
 				5AD0E8EF29D6C09C009A0685 /* Preview Assets.xcassets in Resources */,
 				5AD0E8EC29D6C09C009A0685 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AD0E8EA29D6C09B009A0685 /* ContentView.swift in Sources */,
+				5AD0E92429DAD0AB009A0685 /* GuideThree.swift in Sources */,
+				5AD0E92229DAD098009A0685 /* GuideTwo.swift in Sources */,
+				5AD0E92029DACFF2009A0685 /* GuideOne.swift in Sources */,
 				5AD0E8E829D6C09B009A0685 /* LokerMacetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,11 +437,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LokerMacet/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LokerMacet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,11 +465,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LokerMacet/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LokerMacet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
